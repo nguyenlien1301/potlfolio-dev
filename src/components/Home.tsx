@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, User } from "lucide-react";
+import React, { useEffect, useState } from "react";
 import IconCloud from "./IconCloud";
 
 const name = "Nguyễn Văn Liền";
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
           >
             <div className="relative w-40 h-40 mx-auto mb-8 overflow-hidden transition-all duration-500 border-4 border-blue-500 rounded-full md:mx-0 hover:border-blue-600 dark:border-blue-600 dark:hover:border-blue-500 hover:shadow-xl hover:shadow-blue-200 dark:hover:shadow-blue-900/30">
               <img
-                src="/public/images/avatar.jpg"
+                src="../../public/images/avatar.jpg"
                 alt="avatar"
                 className="object-cover w-full h-full transition-transform duration-700 hover:scale-110"
                 loading="eager"
