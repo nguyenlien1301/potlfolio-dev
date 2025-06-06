@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-card: #ffffff;
+  --text-primary: #1f2937;
+  --border-color: #e5e7eb;
+  --icon-bg: #3b82f6;
+  --icon-border: #93c5fd;
+}
+
+html.dark {
+  --bg-card: #1f2937;
+  --text-primary: #f9fafb;
+  --border-color: #374151;
+  --icon-bg: #3b82f6;
+  --icon-border: #1e40af;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles for vertical timeline */
+.vertical-timeline-element-content {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  padding: 1.5rem !important;
+}
+
+.vertical-timeline-element-date {
+  color: inherit !important;
+  opacity: 0.8 !important;
+  font-weight: 500 !important;
+}
+
+@media (min-width: 768px) {
+  .vertical-timeline-element-date {
+    padding: 0 2rem !important;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Hide scrollbar for slider */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
