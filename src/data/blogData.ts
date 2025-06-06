@@ -19,24 +19,24 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
       "Visual Studio Code là phần mềm soạn thảo code mã nguồn mở được phát triển bởi Microsoft, sử dụng để xây dựng các website, ứng dụng hoàn toàn miễn phí.",
     content: `
         <h2 class="text-blue-500 text-2xl font-bold">1. CSS Peek</h2>
-        <img src="/public/images/css-peek-exten-item-1.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+        <img src="/images/css-peek-exten-item-1.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
         <p class="dark:text-white">- CSS Peek là plugin tuyệt vời để sử dụng với VSCode. CSS Peek giúp mọi người di chuyển nhanh chóng đến nơi định nghĩa các class và id của css.</br>
         - Chỉ cần nhấp chuột phải vào một selector và chọn <strong>Go to Definition</strong> Peek sẽ chuyển bạn đến đúng file vị trí và class và id đó được định nghĩa.</p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">2. Prettier</h2>
-        <img src="/public/images/prettier-exten-item-2.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+        <img src="/images/prettier-exten-item-2.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
         <p class="dark:text-white">- Prettier giúp người dùng tạo ra format, tiến hành sắp xếp code trong các dòng code một cách hiệu quả.</br>
         - Prettier sẽ giúp mọi người <strong>"đồng bộ hoá"</strong> công việc một cách hiệu quả trong quá trình làm việc nhóm, nó sẽ tự động áp dụng định dạng toàn bộ các file JS và CSS cho kết quả làm việc của cả nhóm.</p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">3. Auto Close Tag</h2>
-        <img src="/public/images/auto-close-tag-item-3.jpg" class="w-[90%] h-[400px] object-cover mx-auto py-2 rounded"/>
+        <img src="/images/auto-close-tag-item-3.jpg" class="w-[90%] h-[400px] object-cover mx-auto py-2 rounded"/>
         <p class="dark:text-white">- Auto Close Tag là một extension dành cho Visual Studio Code (VS Code), giúp bạn tự động đóng các thẻ HTML, XML khi bạn nhập một thẻ mở.</br>
         - Tự động đóng thẻ: Khi bạn nhập một thẻ mở như, VS Code sẽ tự động tạo thẻ đóng tương ứng.</br>
         <strong>Lưu ý:</strong> VS Code phiên bản mới đã tích hợp sẵn tính năng tự động đóng thẻ, nên bạn có thể không cần cài extension này nữa.
         </p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">4. Auto Rename Tag</h2>
-        <img src="/public/images/auto-rename-tag-exten-item-4.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+        <img src="/images/auto-rename-tag-exten-item-4.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
         <p class="dark:text-white">- Auto Rename Tag là một extension hữu ích trong Visual Studio Code (VS Code), giúp bạn tự động đổi tên thẻ đóng khi chỉnh sửa thẻ mở và ngược lại. Hỗ trợ HTML, XML, JSX, Vue, PHP,...</br>
         - Khi bạn chỉnh sửa tên thẻ mở (ví dụ: đổi &lt;div&gt; thành &lt;section&gt;), thẻ đóng &lt;/div&gt; cũng tự động thay đổi thành &lt;/section&gt;.
         </br>
@@ -44,7 +44,7 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
         <strong>Tip: </strong> Nếu bạn dùng Emmet, hãy kết hợp với Auto Close Tag để tăng tốc độ viết code hơn nữa!</p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">5. CodeSnap</h2>
-        <img src="/public/images/code-snap-exten-item-5.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+        <img src="/images/code-snap-exten-item-5.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
         <p class="dark:text-white">- CodeSnap là một extension dành cho Visual Studio Code (VS Code) giúp bạn chụp ảnh code đẹp ngay trong trình soạn thảo.</p>
         <strong class="dark:text-white">- Tính năng chính:</strong></br>
         <ul class="list-disc pl-5 dark:text-white">
@@ -65,7 +65,7 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
         </p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">6. ESLint</h2>
-        <img src="/public/images/eslint-extent-item-6.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+        <img src="/images/eslint-extent-item-6.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
         <p class="dark:text-white">- ESLint là một extension phổ biến dành cho Visual Studio Code (VS Code), giúp bạn kiểm tra lỗi và format code tự động theo quy tắc chuẩn trong JavaScript, TypeScript, React,...</p>
         <strong class="dark:text-white">- Tính năng chính:</strong></br>
         <ul class="list-disc pl-5 dark:text-white">
@@ -80,7 +80,7 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
         </p>
         </br>
          <h2 class="text-blue-500 text-2xl font-bold">7. HTML Tag Wrap</h2>
-         <img src="/public/images/htmltagwrap-exten-item-7.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+         <img src="/images/htmltagwrap-exten-item-7.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
          <p class="dark:text-white">- HTML Tag Wrap là một extension hữu ích dành cho Visual Studio Code (VS Code), giúp bạn bọc một đoạn code bằng thẻ HTML chỉ với một phím tắt.</p>
          <strong class="dark:text-white">- Tính năng chính:</strong></br>
         <ul class="list-disc pl-5 dark:text-white">
@@ -99,7 +99,7 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
         </p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">8. GitHub Copilot</h2>
-         <img src="/public/images/github-copilot-exten-item-8.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+         <img src="/images/github-copilot-exten-item-8.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
          <p class="dark:text-white">- GitHub Copilot là một extension AI mạnh mẽ dành cho Visual Studio Code (VS Code), giúp bạn tự động gợi ý code, hoàn thành dòng lệnh và thậm chí viết cả hàm hoàn chỉnh chỉ bằng một vài ký tự nhập.</p>
          <strong class="dark:text-white">- Tính năng chính:</strong></br>
         <ul class="list-disc pl-5 dark:text-white">
@@ -113,7 +113,7 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
         </p>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">9. GitLens</h2>
-         <img src="/public/images/gitLens-exten-item-9.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+         <img src="/images/gitLens-exten-item-9.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
          <p class="dark:text-white">- GitLens là một extension dành cho Visual Studio Code (VS Code), giúp bạn xem lịch sử Git, theo dõi ai đã chỉnh sửa code, so sánh commit, xem blame trực tiếp ngay trong editor và nhiều tính năng khác.</p>
           <strong class="dark:text-white">- Tính năng chính:</strong></br>
         <ul class="list-disc pl-5 dark:text-white">
@@ -125,7 +125,7 @@ export const htmlBlogPosts: HtmlBlogPost[] = [
         </ul>
         </br>
         <h2 class="text-blue-500 text-2xl font-bold">10. Path Intellisense</h2>
-        <img src="/public/images/path-intellisense-exten-item-10.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
+        <img src="/images/path-intellisense-exten-item-10.jpg" class="w-[90%] h-auto object-cover mx-auto py-2 rounded"/>
          <p class="dark:text-white">- Path Intellisense là một extension cho Visual Studio Code (VS Code), giúp bạn tự động hoàn thiện đường dẫn file khi bạn nhập vào trong dự án, giúp tiết kiệm thời gian và tránh lỗi nhập sai đường dẫn.</p>
         <strong class="dark:text-white">- Tính năng chính:</strong></br>
         <ul class="list-disc pl-5 dark:text-white">

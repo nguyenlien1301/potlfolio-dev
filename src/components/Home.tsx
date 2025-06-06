@@ -117,7 +117,7 @@ const Home: React.FC = () => {
                 </motion.a>
 
                 <motion.a
-                  href="/public/images/NguyenVanLien.pdf"
+                  href="/images/NguyenVanLien.pdf"
                   className="flex items-center px-6 py-3 text-gray-900 transition-colors bg-gray-200 border border-blue-500 rounded-lg dark:bg-gray-800 hover:bg-primary-300 dark:hover:bg-primary-700 dark:text-white"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
