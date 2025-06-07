@@ -39,7 +39,7 @@ export const skills: Skill[] = [
   {
     name: "Shadcn",
     icon: "/icons/shadcn.svg",
-    color: "#1890FF",
+    color: "#999999",
   },
   {
     name: "JavaScript",
